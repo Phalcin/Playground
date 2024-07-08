@@ -1,11 +1,98 @@
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-
 body {
   margin: 0;
-  display: flex;
-  justify-content: center;
+  padding: 0;
+  font-family: cursive;
+}
+
+main {
   height: 100vh;
+  background-color: darkblue;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  background-color: salmon;
-  font-family: "Permanent Marker", cursive;
+  background-color: darkblue;
+  color: white;
+  margin: 0 20px;
+}
+
+.navigation h1 {
+  font-style: italic;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-list li {
+  list-style-type: none;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.nav-item {
+  margin-top: 10px;
+}
+
+.get-started {
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 10px;
+  margin-right: 0 !important;
+}
+
+/* SECOND SECTION  */
+
+.second-section {
+  margin: 150px 20px 0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-container {
+  width: 0%;
+}
+
+.img {
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.first-box h2 {
+  color: white;
+  font-family: cursive;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+.first-box p {
+  color: rgb(187, 181, 181);
+  font-size: 19px;
+  margin-top: 0;
+}
+
+.first-box button {
+  background-color: aqua;
+  outline: none;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 20px;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-stuff {
+  display: flex;
+  align-items: center;
+}
+
+.watch {
+  color: white;
+  margin-left: 15px;
 }
